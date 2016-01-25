@@ -1,22 +1,19 @@
 package algorithms.warmup.maximizingXOR;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Solution {
     static int maxXor(int left, int right) {
-    	int max = 0;
-    	for(int i = left; i <=right; i++)
-    	{
-    		for (int j = i; j <=right; j++)
-    		{
-    			int tempResult = i^j;
-    			if (tempResult > max)
-    			{
-    				max = tempResult;
-    			}
-    		}
-    	}
-    	return max;
+        int max = 0;
+        for (int i = left; i <= right; i++) {
+            for (int j = i; j <= right; j++) {
+                int tempResult = i ^ j;
+                if (tempResult > max) {
+                    max = tempResult;
+                }
+            }
+        }
+        return max;
     }
 
     public static void main(String[] args) {
