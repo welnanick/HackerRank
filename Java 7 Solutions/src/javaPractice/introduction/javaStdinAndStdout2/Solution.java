@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
         input.nextLine();
@@ -18,5 +19,7 @@ public class Solution {
         System.out.println("String: " + c);
         System.out.println("Double: " + b);
         System.out.println("Int: " + a);
+
     }
+
 }

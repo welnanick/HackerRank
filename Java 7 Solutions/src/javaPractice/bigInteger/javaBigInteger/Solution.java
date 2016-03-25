@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Solution {
 
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         String a = input.nextLine();
         String b = input.nextLine();
@@ -16,6 +17,7 @@ public class Solution {
         System.out.println(sum);
         System.out.println(product);
         input.close();
+
     }
 
 }

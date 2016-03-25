@@ -8,7 +8,6 @@ import java.util.Scanner;
  */
 public class Solution {
 
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
@@ -42,7 +41,6 @@ public class Solution {
             }
 
         }
-
         for (int i = 0; i < numberOfPairs; i++) {
 
             System.out.print(pairs[i * 2] + " " + pairs[(i * 2) + 1]);
@@ -55,7 +53,6 @@ public class Solution {
         }
 
     }
-
 
     /**
      * Had quicksort already implemented so I didn't use insertion sort and suggested in the exercise

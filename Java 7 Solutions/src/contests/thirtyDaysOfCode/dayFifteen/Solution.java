@@ -13,6 +13,7 @@ class Solution {
 
         }
         else {
+
             Node currentNode = head;
             while (currentNode.next != null) {
 
@@ -21,6 +22,7 @@ class Solution {
             }
             currentNode.next = new Node(data);
             return head;
+
         }
 
     }

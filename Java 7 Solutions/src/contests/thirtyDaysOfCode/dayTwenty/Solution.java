@@ -13,7 +13,7 @@ public class Solution {
         String sentence = input.nextLine();
         String[] split = sentence.split("[^A-Za-z]");
         int wordCount = 0;
-        for (int i = 0; i< split.length; i++) {
+        for (int i = 0; i < split.length; i++) {
 
             if (!split[i].equals("")) {
 
@@ -23,7 +23,7 @@ public class Solution {
 
         }
         System.out.println(wordCount);
-        for (int i = 0; i< split.length; i++) {
+        for (int i = 0; i < split.length; i++) {
 
             if (!split[i].equals("")) {
 

@@ -18,11 +18,15 @@ public class Solution {
             String pattern = input.nextLine();
 
             try {
+
                 Pattern.compile(pattern);
                 System.out.println("Valid");
+
             }
             catch (Exception e) {
+
                 System.out.println("Invalid");
+
             }
 
         }

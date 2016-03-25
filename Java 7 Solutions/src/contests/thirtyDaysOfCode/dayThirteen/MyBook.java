@@ -16,9 +16,11 @@ class MyBook extends Book {
 
     @Override
     void display() {
+
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
         System.out.println("Price: " + price);
+
     }
 
 }

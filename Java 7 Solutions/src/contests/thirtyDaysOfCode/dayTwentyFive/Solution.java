@@ -17,6 +17,7 @@ public class Solution {
             double squareRoot = Math.sqrt(number);
             boolean prime = true;
             if (number > 3) {
+
                 for (int j = 2; j < squareRoot; j++) {
 
                     if (number % j == 0) {
@@ -26,12 +27,17 @@ public class Solution {
                     }
 
                 }
+
             }
             if (prime && number != 1) {
+
                 System.out.println("Prime");
+
             }
             else {
+
                 System.out.println("Not prime");
+
             }
 
         }

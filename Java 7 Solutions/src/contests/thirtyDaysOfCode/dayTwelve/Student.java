@@ -10,6 +10,7 @@ class Student {
     int phone;
 
     Student(String fname, String lname, int p) {
+
         firstName = fname;
         lastName = lname;
         phone = p;
@@ -17,7 +18,9 @@ class Student {
     }
 
     public void display() {// display the details of the student
+
         System.out.println("First Name: " + firstName + "\nLast Name: " + lastName + "\nPhone: " + phone);
+
     }
 
 }

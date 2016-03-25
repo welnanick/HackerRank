@@ -14,12 +14,13 @@ public class Arithmetic {
         int tipPercentage = input.nextInt();
         int taxPercentage = input.nextInt();
 
-        double tipPrice = (mealPrice*tipPercentage)/100;
-        double taxPrice = (mealPrice*taxPercentage)/100;
+        double tipPrice = (mealPrice * tipPercentage) / 100;
+        double taxPrice = (mealPrice * taxPercentage) / 100;
 
         int totalPrice = (int) Math.round(mealPrice + tipPrice + taxPrice);
 
         System.out.println("The final price of the meal is $" + totalPrice + ".");
+
     }
 
 }

@@ -13,13 +13,19 @@ public class Solution {
         int numberOfNumbers = input.nextInt();
         int[] numbers = new int[numberOfNumbers];
         for (int i = 0; i < numberOfNumbers; i++) {
+
             numbers[i] = input.nextInt();
+
         }
         for (int i = 1; i <= numberOfNumbers; i++) {
+
             System.out.print(numbers[numberOfNumbers - i]);
             if (!(i == numberOfNumbers)) {
+
                 System.out.print(" ");
+
             }
+
         }
 
     }

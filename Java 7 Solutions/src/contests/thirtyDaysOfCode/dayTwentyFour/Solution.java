@@ -8,6 +8,7 @@ public class Solution {
     public static Node removeDuplicates(Node head) {
 
         if (head != null) {
+
             Node currentNode = head;
             while (currentNode.next != null) {
 
@@ -23,6 +24,7 @@ public class Solution {
                 }
 
             }
+
         }
         return head;
 

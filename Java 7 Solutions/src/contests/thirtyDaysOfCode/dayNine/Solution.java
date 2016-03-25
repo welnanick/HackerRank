@@ -16,10 +16,14 @@ public class Solution {
         int gcd;
 
         if (x > y) {
+
             gcd = findGCD(x, y);
+
         }
         else {
+
             gcd = findGCD(y, x);
+
         }
         System.out.println(gcd);
 
@@ -28,16 +32,24 @@ public class Solution {
     private static int findGCD(int x, int y) {
 
         if (x == y) {
+
             return x;
+
         }
         else {
+
             int z = x - y;
             if (z > y) {
+
                 return findGCD(z, y);
+
             }
             else {
+
                 return findGCD(y, z);
+
             }
+
         }
 
     }

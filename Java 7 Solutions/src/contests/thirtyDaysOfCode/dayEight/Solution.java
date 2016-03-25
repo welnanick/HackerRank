@@ -18,20 +18,28 @@ public class Solution {
 
         Map<String, String> phoneBook = new HashMap<>();
 
-        for(int i = 0; i<numberOfEntries; i++) {
+        for (int i = 0; i < numberOfEntries; i++) {
+
             String name = input.nextLine();
             String phoneNumber = input.nextLine();
 
             phoneBook.put(name, phoneNumber);
+
         }
-        while(input.hasNext()) {
+        while (input.hasNext()) {
+
             String query = input.nextLine();
             if (phoneBook.containsKey(query)) {
+
                 System.out.println(query + "=" + phoneBook.get(query));
+
             }
             else {
+
                 System.out.println("Not found");
+
             }
+
         }
 
     }

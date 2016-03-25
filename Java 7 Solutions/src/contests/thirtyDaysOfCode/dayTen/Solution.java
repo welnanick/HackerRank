@@ -12,13 +12,17 @@ public class Solution {
         Scanner input = new Scanner(System.in);
         int numberOfTests = input.nextInt();
         for (int i = 0; i < numberOfTests; i++) {
+
             int baseTenNumber = input.nextInt();
             String baseTwoNumber = "";
             while (baseTenNumber != 0) {
+
                 baseTwoNumber = baseTenNumber % 2 + baseTwoNumber;
                 baseTenNumber = baseTenNumber / 2;
+
             }
             System.out.println(baseTwoNumber);
+
         }
 
     }

@@ -6,6 +6,7 @@ package contests.thirtyDaysOfCode.dayOne;
 public class Solution {
 
     public static void main(String[] args) {
+
         System.out.println("Primitive : double");
         System.out.println("Primitive : char");
         System.out.println("Primitive : boolean");
@@ -15,6 +16,7 @@ public class Solution {
         System.out.println("Primitive : double");
         System.out.println("Primitive : char");
         System.out.println("Referenced : String");
+
     }
 
 }
